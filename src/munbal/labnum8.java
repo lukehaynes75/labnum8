@@ -29,6 +29,8 @@ public class labnum8 {
 					System.out.println(hoTo[i]);
 				} else if (answer.equalsIgnoreCase("food")) {
 					System.out.println(food[i]);
+				}else {
+					System.out.println("Not a valid option");
 				}
 				scan.nextLine();
 				System.out.println("Would you like to learn about another student? yes/no");
